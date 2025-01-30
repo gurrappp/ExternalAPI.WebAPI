@@ -6,9 +6,9 @@ public class Program
     public static void main(string[] args)
     {
 
-        var app = Setup.WebApplicationBuilder();
+        var app = Startup.WebApplicationBuilder();
 
-        Setup.AppSetup(app);
+        Startup.AppSetup(app);
 
         app.Run();
     }

@@ -2,7 +2,7 @@
 
 namespace ExternalAPI.WebAPI
 {
-    public class Setup
+    public class Startup
     {
         public static WebApplication WebApplicationBuilder()
         {
